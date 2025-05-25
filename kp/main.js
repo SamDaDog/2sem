@@ -152,8 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Получаем значения полей формы
             const email = this.querySelector('#email').value;
             const message = this.querySelector('#message').value;
-            
-            // Логируем данные формы (в реальном приложении здесь будет отправка на сервер)
+
             console.log('Email:', email);
             console.log('Message:', message);
             
